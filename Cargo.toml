@@ -1,0 +1,13 @@
+[package]
+name = "wiremock-404s"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-trait = "0.1.74"
+tokio = { version = "1", features = ["full"] }
+wiremock = "0.5.22"
+test-context = "0.1"
+reqwest = "0.11.22"
